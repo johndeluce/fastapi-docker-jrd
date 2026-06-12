@@ -1,12 +1,12 @@
-from fastapi import FastAPI
 import uvicorn
+from fastapi import FastAPI
 
 app = FastAPI(title="Simple API", version="1.0.0")
 
 
 @app.get("/")
 def read_root():
-    return {"message": "Hello from FastAPI!", "version": "2.0.0"}  # Changed!
+    return {"message": "Hello from FastAPI!", "version": "1.0.0"}
 
 
 @app.get("/health")
