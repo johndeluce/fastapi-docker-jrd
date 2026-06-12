@@ -17,9 +17,10 @@ def read_root():
 def health_check():
     return {"status": "healthy"}
 
+
 # Add this poorly formatted function at the end of the file
-def poorly_formatted_function(x,y,z):
-    result=x+y+z
+def poorly_formatted_function(x, y, z):
+    result = x + y + z
     return result
 
 
